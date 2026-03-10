@@ -7,7 +7,7 @@ import os
 # 1. НАСТРОЙКИ БЕЗОПАСНОСТИ И ДОСТУПА
 # ==========================================
 # Вставь сюда свой реальный API-ключ внутри кавычек
-MY_API_KEY = "AIzaSyA3GcVpbqrpGcPNqqtt-XasDjC2kjO2zT0" 
+MY_API_KEY = st.secrets["GEMINI_API_KEY"] 
 
 # Придумай пароль для коллег
 APP_PASSWORD = "MartiniMartini" 
